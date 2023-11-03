@@ -5,4 +5,4 @@ Some folks are going to hate it. That's ok! I don't think this is ever going to 
 
 It's also not intended to supplant language-specific linters, so if this tool contradicts any of those more specific tools, please accept their recommendations instead!
 
-It's purely to help make suggestions about code readability! And all such automated suggestions should be applied with your best judgement--at the end of the day, you're the human who will be the best at making such judgement calls.
+It's purely to help make suggestions about code readability! And all such automated suggestions should only be applied with your best judgement--at the end of the day, you're the human, and you'll always be the best entity to make stylistic judgement calls about your codebase.

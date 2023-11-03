@@ -7,7 +7,7 @@
 # editor
 # - general "density"
 # - max line length
-# - number of lines in a block (before space or other separator)
+# - number of lines in a block (empty line or other separator)
 # - number of lines in a file
 # - number of files in a directory
 # - max indent level

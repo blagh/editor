@@ -11,7 +11,7 @@
 # - number of lines in a file
 # - number of files in a directory
 # - max indent level
-# - max number of methods in a file
+# - max number of blocks in a file
 # - max directory depth
 # - max variable name length
 # - max repetition of non-dictionary words (avoid acronyms)
@@ -19,5 +19,8 @@
 # - overly repetitive terms (not keywords of course)
 # - comment to code ratio (rather than needing to document each block, look at the overall ratio of comment lines to code lines)
 
-# language specific
-# - daisy-chain methods vs controller method
+# more language specific
+# - method call tracing
+  # - max call stack depth
+  # - max scroll diff (how often are you going up and down, back and forth)
+  # - daisy-chain methods vs controller method

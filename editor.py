@@ -1,6 +1,6 @@
 ### directory-level editor
-# count number of sub-directory
-# count number of files
+# max number of sub-directory
+# max number of files
 # collect results
 # for file in files
   # run file-level editor
@@ -11,11 +11,12 @@
 
 ### file-level editor
 # language agnostic (although configurable) -- general "density"
-# - line length
-# - number of lines in a block (empty line or other separator)
-# - number of lines in a file
-# - number of files in a directory
-# - number of directories in a directory
+# - max number of char -> line -> block -> file
+  # - number of chars in a line
+  # - number of lines in a block (empty line or other separator)
+  # - number of blocks in a file (this could be lines also? but there's something satisfying about the way blocks ladders up)
+# - min number of char -> line -> block -> file
+  # - a little trickier than max :thonk: maybe it's a multi-level thing, like, the number of files with only one block, the number of dirs with only one file
 # - indent level
 # - number of blocks in a file
 # - directory depth

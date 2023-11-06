@@ -1,4 +1,5 @@
 ### directory-level editor
+
 # max number of sub-directory
 # max number of files
 # collect results
@@ -11,7 +12,8 @@
 # output results
 
 ### file-level editor
-# language agnostic (although configurable) -- general "density"
+
+## language agnostic (although configurable) -- general "density"
 # - max number of char -> line -> block -> file
   # - number of chars in a line
   # - number of lines in a block (empty line or other separator)
@@ -27,7 +29,7 @@
 # - overly repetitive terms (not keywords of course)
 # - comment to code ratio (rather than needing to document each block, look at the overall ratio of comment lines to code lines)
 
-# more language specific
+## more language specific
 # - ignore library code of course!
 # - method call tracing
   # - max non-recursive call stack depth

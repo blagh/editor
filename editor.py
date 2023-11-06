@@ -7,6 +7,7 @@
   # collect results
 # for directory in sub-directories
   # run directory-level editor
+  # collect results
 # output results
 
 ### file-level editor

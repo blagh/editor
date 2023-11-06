@@ -24,3 +24,5 @@
   # - max call stack depth
   # - max scroll diff (how often are you going up and down, back and forth)
   # - daisy-chain methods vs controller method
+# - avoid use of `not` in complex expressions
+# - avoid mixing `and` and `or`

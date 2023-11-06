@@ -33,5 +33,6 @@
   # - daisy-chain methods vs controller method (a->b->c->d vs a->b a->c a->d)
   # - max scroll diff (how far are you going up and down, how often do you have to switch directions)
   # - max file changes in stack trace
+# - "empty" files (e.g just a class definition)
 # - avoid use of `not` in complex expressions
 # - avoid mixing `and` and `or`

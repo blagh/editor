@@ -36,3 +36,4 @@
 # - "empty" files (e.g just a class definition)
 # - avoid use of `not` in complex expressions
 # - avoid mixing `and` and `or`
+# - recommend type-hinting? :squint: recommend at a certain size of codebase?

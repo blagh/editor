@@ -21,12 +21,12 @@
 # - min number of char -> line -> block -> file
   # - a little trickier than max :thonk: maybe it's a multi-level thing, like, the number of files with only one block, the number of dirs with only one file
 # - indent level
-# - number of blocks in a file
 # - directory depth
-# - variable name length
-# - repetition of non-dictionary words (avoid acronyms)
+# - name length (variable, method name, file name, directory name)
+# - non-dictionary words (avoid acronyms)
 # - density of special characters on a line
 # - overly repetitive terms (not keywords of course)
+# - repetitive prefixes (variables in method, methods in file, file name in directory, directory names in directory)
 # - comment to code ratio (rather than needing to document each block, look at the overall ratio of comment lines to code lines)
 
 ## more language specific
